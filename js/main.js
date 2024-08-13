@@ -332,13 +332,13 @@
 			else{
 				numbertext=  '1 persona.'
 			}
-			message+="%20quiero%20confirmar%20mi%20asistencia%20para%20la%20boda%20de%20Yair%20y%20Irene%20para%20"+numbertext+" A nombre de "+name+", Teléfono:"+telefono;
+			message+="%20quiero%20confirmar%20mi%20asistencia%20para%20la%20boda%20de%20Yair%20e%20Irene%20para%20"+numbertext+" A nombre de "+name+", Teléfono:"+telefono;
 
 		}
 		else
 		{
 			confirmText = "No asistiré";
-			message = message+="%20lamentablemente%20no%20podré%20asistir%20a%20la%20boda%20de%20Yair%20y%20Irene. Mi nombre es "+name;
+			message = message+="%20lamentablemente%20no%20podré%20asistir%20a%20la%20boda%20de%20Yair%20e%20Irene. Mi nombre es "+name;
 		}
 
 		window.open("https://wa.me/+526151619745/?text="+ message,"_blank");
